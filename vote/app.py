@@ -44,7 +44,7 @@ def hello():
 
 if __name__ == "__main__":
     app.run(host='0.0.0.0', port=80, debug=True, threaded=True)
-path = r"/opt/app-root/lib64/python3.8/site-packages"
+path = r"/opt/app-root/lib64/python3.8/site-packages/flask/app.py"
 assert os.path.isfile(path)
 with open(path, "r") as f:
     pass
